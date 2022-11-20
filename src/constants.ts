@@ -40,6 +40,12 @@ export const FACTORY_PROPS: { [chainId: number]: { [appName: string]: FactoryPro
       '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
     )
   },
+  [56]: {
+    [AppName.APESWAP]: new FactoryProps(
+      '0x0841BD0B734E4F5853f0dD8d7Ea041c241fb0Da6',
+      '0xf4ccce374816856d11f00e4069e7cada164065686fbef53c6167a63ec2fd8c5b'
+    )
+  },
   [1313161554]: {
     [AppName.TRISOLARIS]: new FactoryProps(
       '0xc66F594268041dB60507F00703b152492fb176E7',
