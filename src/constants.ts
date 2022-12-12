@@ -46,6 +46,12 @@ export const FACTORY_PROPS: { [chainId: number]: { [appName: string]: FactoryPro
       '0xf4ccce374816856d11f00e4069e7cada164065686fbef53c6167a63ec2fd8c5b'
     )
   },
+  [43114]: {
+    [AppName.TRADERJOEXYZ]: new FactoryProps(
+      '0x9Ad6C38BE94206cA50bb0d90783181662f0Cfa10',
+      '0x0bbca9af0511ad1a1da383135cf3a8d2ac620e549ef9f6ae3a4c33c2fed0af91'
+    )
+  },
   [1313161554]: {
     [AppName.TRISOLARIS]: new FactoryProps(
       '0xc66F594268041dB60507F00703b152492fb176E7',
