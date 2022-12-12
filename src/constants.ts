@@ -7,7 +7,7 @@ export enum AppName {
   TRISOLARIS = 'trisolaris',
   PANCAKESWAP = 'pancakeswap',
   APESWAP = 'apeswap',
-  TRADERJOEXYZ = 'traderjoexyz'
+  TRADERJOEXYZ = 'traderjoe'
 }
 
 class FactoryProps {
