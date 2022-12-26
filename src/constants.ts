@@ -44,6 +44,10 @@ export const FACTORY_PROPS: { [chainId: number]: { [appName: string]: FactoryPro
     [AppName.APESWAP]: new FactoryProps(
       '0x0841BD0B734E4F5853f0dD8d7Ea041c241fb0Da6',
       '0xf4ccce374816856d11f00e4069e7cada164065686fbef53c6167a63ec2fd8c5b'
+    ),
+    [AppName.PANCAKESWAP]: new FactoryProps(
+      '0xca143ce32fe78f1f7019d7d551a6402fc5350c73',
+      '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
     )
   },
   [43114]: {
