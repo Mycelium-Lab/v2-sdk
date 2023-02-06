@@ -7,7 +7,8 @@ export enum AppName {
   TRISOLARIS = 'trisolaris',
   PANCAKESWAP = 'pancakeswap',
   APESWAP = 'apeswap',
-  TRADERJOEXYZ = 'traderjoe'
+  TRADERJOEXYZ = 'traderjoe',
+  MESHSWAP = 'meshswap'
 }
 
 class FactoryProps {
@@ -34,6 +35,10 @@ export const FACTORY_PROPS: { [chainId: number]: { [appName: string]: FactoryPro
     [AppName.APESWAP]: new FactoryProps(
       '0xCf083Be4164828f00cAE704EC15a36D711491284',
       '0x511f0f358fe530cda0859ec20becf391718fdf5a329be02f4c95361f3d6a42d8'
+    ),
+    [AppName.MESHSWAP]: new FactoryProps(
+      '0x9F3044f7F9FC8bC9eD615d54845b4577B833282d',
+      '0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9'
     ),
     [AppName.QUICKSWAP]: new FactoryProps(
       '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32',
